@@ -1,0 +1,6 @@
+apt-builder-fetch:
+	# noop
+apt-builder-deps:
+	mk-build-deps
+apt-builder-build:
+	debuild -i -us -uc -b
